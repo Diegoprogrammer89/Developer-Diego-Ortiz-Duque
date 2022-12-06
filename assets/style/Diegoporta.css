@@ -534,6 +534,7 @@
     }
     .nav-toggle img {
         display: block;
+        
     }
     .nav__menu_visible {
         left: 0px;
@@ -570,7 +571,8 @@
         width: 35px;
     }
     .gif-D {
-        margin-right: 300px;
+        margin-right: 200px;
+        
     }
     .block1 {
         height: 200px;
@@ -578,7 +580,13 @@
     }
 
     .menu {
-        position: fixed;
+        display: flex;
+        justify-content:center;
+        padding-right: 400px;
+    
+    }
+    .nav-toggle{
+        padding-left: 30px;
     }
 
     .containerContact {
@@ -587,4 +595,5 @@
     .contactGmail {
         padding-top: 90px;
     }
+   
 }
