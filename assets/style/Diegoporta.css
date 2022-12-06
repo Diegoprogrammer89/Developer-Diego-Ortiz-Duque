@@ -520,6 +520,12 @@
 /******************smartPhone***************/
 
 @media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
     body {
         margin: 0px;
     }
@@ -534,7 +540,6 @@
     }
     .nav-toggle img {
         display: block;
-        
     }
     .nav__menu_visible {
         left: 0px;
@@ -572,7 +577,6 @@
     }
     .gif-D {
         margin-right: 200px;
-        
     }
     .block1 {
         height: 200px;
@@ -581,12 +585,12 @@
 
     .menu {
         display: flex;
-        justify-content:center;
-        padding-right: 400px;
-    
+        justify-content: center;
+        padding-right: 60px;
     }
-    .nav-toggle{
-        padding-left: 30px;
+    .nav-toggle {
+        padding-left: 300px;
+        position: absolute;
     }
 
     .containerContact {
@@ -595,5 +599,4 @@
     .contactGmail {
         padding-top: 90px;
     }
-   
 }
